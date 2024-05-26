@@ -28,7 +28,7 @@ ingredients_list = st.multiselect(
     'Choose up to 5 ingredients:'
     , my_dataframe
 )
-
+st.stop()
 if ingredients_list: 
     ingredients_string = ''
 
